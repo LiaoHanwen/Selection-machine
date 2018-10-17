@@ -1,0 +1,124 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+# Date created = 11:06:07  October 29, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		final_1_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX II"
+set_global_assignment -name DEVICE EPM1270T144C5
+set_global_assignment -name TOP_LEVEL_ENTITY final_1
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:06:07  OCTOBER 29, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR 3.3V
+set_global_assignment -name MISC_FILE \\\\VBOXSVR\\ShareFile\\final_1\\final_1.dpf
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_61 -to btn0_61
+set_location_assignment PIN_20 -to btn1_20
+set_location_assignment PIN_89 -to btn2_89
+set_location_assignment PIN_91 -to btn3_91
+set_location_assignment PIN_121 -to btn4_121
+set_location_assignment PIN_122 -to btn5_122
+set_location_assignment PIN_124 -to btn7_124
+set_location_assignment PIN_31 -to cat[7]
+set_location_assignment PIN_30 -to cat[6]
+set_location_assignment PIN_70 -to cat[5]
+set_location_assignment PIN_69 -to cat[4]
+set_location_assignment PIN_68 -to cat[3]
+set_location_assignment PIN_67 -to cat[2]
+set_location_assignment PIN_66 -to cat[1]
+set_location_assignment PIN_63 -to cat[0]
+set_location_assignment PIN_18 -to clock_18
+set_location_assignment PIN_22 -to col[7]
+set_location_assignment PIN_21 -to col[6]
+set_location_assignment PIN_16 -to col[5]
+set_location_assignment PIN_15 -to col[4]
+set_location_assignment PIN_14 -to col[3]
+set_location_assignment PIN_13 -to col[2]
+set_location_assignment PIN_12 -to col[1]
+set_location_assignment PIN_11 -to col[0]
+set_location_assignment PIN_74 -to content_led6_0[6]
+set_location_assignment PIN_75 -to content_led6_0[5]
+set_location_assignment PIN_76 -to content_led6_0[4]
+set_location_assignment PIN_77 -to content_led6_0[3]
+set_location_assignment PIN_78 -to content_led6_0[2]
+set_location_assignment PIN_79 -to content_led6_0[1]
+set_location_assignment PIN_80 -to content_led6_0[0]
+set_location_assignment PIN_62 -to disp[6]
+set_location_assignment PIN_59 -to disp[5]
+set_location_assignment PIN_58 -to disp[4]
+set_location_assignment PIN_57 -to disp[3]
+set_location_assignment PIN_55 -to disp[2]
+set_location_assignment PIN_53 -to disp[1]
+set_location_assignment PIN_52 -to disp[0]
+set_location_assignment PIN_138 -to enable_led14_138
+set_location_assignment PIN_140 -to lock1_led12_140
+set_location_assignment PIN_141 -to lock2_led11_141
+set_location_assignment PIN_142 -to lock3_led10_142
+set_location_assignment PIN_143 -to lock4_led9_143
+set_location_assignment PIN_144 -to lock5_led8_144
+set_location_assignment PIN_73 -to lock6_led7_73
+set_location_assignment PIN_137 -to reset_led15_137
+set_location_assignment PIN_125 -to reset_sw7_125
+set_location_assignment PIN_1 -to row[7]
+set_location_assignment PIN_2 -to row[6]
+set_location_assignment PIN_3 -to row[5]
+set_location_assignment PIN_4 -to row[4]
+set_location_assignment PIN_5 -to row[3]
+set_location_assignment PIN_6 -to row[2]
+set_location_assignment PIN_7 -to row[1]
+set_location_assignment PIN_8 -to row[0]
+set_location_assignment PIN_139 -to test_led13_139
+set_global_assignment -name VHDL_FILE beep.vhd
+set_global_assignment -name VHDL_FILE music_control.vhd
+set_global_assignment -name VHDL_FILE play_music.vhd
+set_global_assignment -name VHDL_FILE save_music.vhd
+set_global_assignment -name BDF_FILE final_1.bdf
+set_global_assignment -name VHDL_FILE blocker.vhd
+set_global_assignment -name VHDL_FILE blocker2.vhd
+set_global_assignment -name VHDL_FILE disp_control.vhd
+set_global_assignment -name VHDL_FILE disp_control2.vhd
+set_global_assignment -name VHDL_FILE disp_display.vhd
+set_global_assignment -name VHDL_FILE frequency_devider.vhd
+set_global_assignment -name VHDL_FILE matrix_control.vhd
+set_global_assignment -name VHDL_FILE matrix_display.vhd
+set_global_assignment -name VHDL_FILE sequence_generator.vhd
+set_global_assignment -name VHDL_FILE test_control.vhd
+set_location_assignment PIN_60 -to beep

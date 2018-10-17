@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.592 ns
+From           : btn2_89
+To             : beep:inst11|key_tmp[7]
+From Clock     : --
+To Clock       : reset_sw7_125
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 22.154 ns
+From           : test_control:inst3|enable
+To             : content_led6_0[6]
+From Clock     : clock_18
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.803 ns
+From           : btn5_122
+To             : lock1_led12_140
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.067 ns
+From           : reset_sw7_125
+To             : save_music:inst12|count[5]
+From Clock     : --
+To Clock       : clock_18
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clock_18'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 59.11 MHz ( period = 16.917 ns )
+From           : test_control:inst3|enable
+To             : matrix_display:inst9|col[1]
+From Clock     : clock_18
+To Clock       : clock_18
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clock_18'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : sequence_generator:inst26|disp_re[2]
+To             : disp_control:inst21|count[2]
+From Clock     : clock_18
+To Clock       : clock_18
+Failed Paths   : 19
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 19
+
+--------------------------------------------------------------------------------------
+
